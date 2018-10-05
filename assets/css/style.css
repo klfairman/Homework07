@@ -1,0 +1,74 @@
+body{
+background-image: url("metraMap.jpg");
+}
+
+.jumbotron {
+    background-image: url("metraTrain.png");
+    margin-top: 2.5%;
+    border: double black 3px;
+    font-weight: 900;
+    height: 250px;
+    width: auto;
+    
+}
+
+
+.container2{
+    background-color: rgb(255, 255, 240);
+    border: solid 3px black;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.container3 {
+    width: 320px;
+    margin-left: 78%;
+    margin-bottom: 65px;
+    
+}
+#heading {
+    font-family: 'Oranienbaum', serif;
+    font-weight: bold;
+    font: rgb(255, 255, 240);
+    text-decoration: overline;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  #subHeading {
+    margin-bottom: 10px;
+    font-family: 'Oranienbaum', serif;
+    font-style: italic;
+    font: rgb(255, 255, 240);
+    text-decoration: underline;
+  }
+  
+  .panel-title {
+    font-weight: bold;
+    font-family: 'Oranienbaum', serif;
+    text-indent: 20px;
+    margin-top: 5px;
+  }
+  
+  th {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Oranienbaum', serif;
+    text-indent: 10px;
+  }
+.form-group{
+    font-family: 'Oranienbaum', serif; 
+}
+
+.btn {
+    font-family: 'Oranienbaum', serif;
+    color: black;
+    border: solid black 1px;
+    font: black bold;
+
+}
+
+p {
+    font-family: 'Oranienbaum', serif;
+    font-size: 30px;
+}
