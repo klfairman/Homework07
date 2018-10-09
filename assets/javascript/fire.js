@@ -1,6 +1,15 @@
 $(document).ready(function () {
-  
-  firebase.initializeApp(config);
+    // Initialize Firebase
+ 
+  var config = {
+    apiKey: "AIzaSyCT2xikArBoo8xW6BH7CsB2B8h8B3RynQY",
+    authDomain: "allaboard-8499b.firebaseapp.com",
+    databaseURL: "https://allaboard-8499b.firebaseio.com",
+    projectId: "allaboard-8499b",
+    storageBucket: "allaboard-8499b.appspot.com",
+    messagingSenderId: "584363234718"
+  };
+    firebase.initializeApp(config);
 
   var database = firebase.database();
   
